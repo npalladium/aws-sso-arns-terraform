@@ -1,0 +1,25 @@
+formatter: "markdown"
+
+sort:
+  enabled: true
+  by: name
+
+settings:
+  anchor: false
+  color: false
+  default: true
+  description: false
+  escape: true
+  hide-empty: true
+  html: true
+  indent: 3
+  lockfile: false
+  read-comments: true
+  required: true
+  sensitive: true
+  type: true
+sections:
+  hide:
+    - providers
+    - resources
+    - data-sources

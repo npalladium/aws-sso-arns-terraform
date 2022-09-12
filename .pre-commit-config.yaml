@@ -10,8 +10,3 @@ repos:
   rev: '2.0.1098' # change to tag or sha
   hooks:
     - id: checkov
-- repo: https://github.com/terraform-docs/terraform-docs
-  rev: "v0.16.0"
-  hooks:
-    - id: terraform-docs-go
-      args: ["markdown", "table", "--output-file", "README.md", "."]
